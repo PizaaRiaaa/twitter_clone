@@ -7,6 +7,7 @@ import 'firebase_options.dart';
 import 'package:flutter/material.dart';
 import 'package:twitter_clone/pages/signin.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
