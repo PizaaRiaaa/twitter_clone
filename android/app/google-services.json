@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "394567200242",
+    "project_id": "rikki-twitter-official",
+    "storage_bucket": "rikki-twitter-official.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394567200242:android:e2e87c8bd78b2def198f6b",
+        "android_client_info": {
+          "package_name": "com.example.twitter_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoucYuQ-DNlvy_2AfDgVyFX3xmQrkhngk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
