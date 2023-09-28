@@ -49,6 +49,7 @@ class _SignInState extends ConsumerState<SignIn> {
                   borderRadius: BorderRadius.circular(30),
                 ),
                 child: TextFormField(
+                  key: const ValueKey("loginEmail"),
                   controller: emailController,
                   keyboardType: TextInputType.emailAddress,
                   decoration: const InputDecoration(
@@ -77,6 +78,7 @@ class _SignInState extends ConsumerState<SignIn> {
                   borderRadius: BorderRadius.circular(30),
                 ),
                 child: TextFormField(
+                  key: const ValueKey("loginPassword"),
                   controller: passwordController,
                   keyboardType: TextInputType.visiblePassword,
                   obscureText: true,
@@ -108,6 +110,7 @@ class _SignInState extends ConsumerState<SignIn> {
                   borderRadius: BorderRadius.circular(30),
                 ),
                 child: TextButton(
+                  key: const ValueKey("loginButton"),
                   onPressed: () async {
                     if (_signInkey.currentState!.validate()) {
                       try {

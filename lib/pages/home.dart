@@ -105,6 +105,7 @@ class Home extends ConsumerWidget {
               ),
             ),
             ListTile(
+              key: const ValueKey("signOut"),
               onTap: () {
                 FirebaseAuth.instance.signOut();
                 ref.read(userProvider.notifier).logout();
